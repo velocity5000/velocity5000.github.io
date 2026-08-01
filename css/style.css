@@ -57,7 +57,7 @@ ul{
 
 .container{
 
-    width:min(92%,1400px);
+    width:min(90%,1320px);
 
     margin:auto;
 
@@ -146,20 +146,19 @@ ul{
 
     background:linear-gradient(
         90deg,
-        rgba(0,0,0,.60) 0%,
-        rgba(0,0,0,.35) 45%,
-        rgba(0,0,0,.10) 100%
+        rgba(0,0,0,.72) 0%,
+        rgba(0,0,0,.48) 40%,
+        rgba(0,0,0,.08) 100%
     );
 
     display:flex;
     align-items:center;
-
 }
 
 .hero-content{
 
-    width:100%;
-    max-width:600px;
+    width:50%;
+    max-width:620px;
 
     color:#fff;
 
