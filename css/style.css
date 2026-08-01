@@ -92,9 +92,7 @@ ul{
 
 .logo img{
 
-    height:55px;
-
-    width:auto;
+    height:48px;
 
 }
 
@@ -102,7 +100,7 @@ ul{
 
     display:flex;
 
-    gap:40px;
+    gap:50px;
 
 }
 
@@ -159,8 +157,12 @@ background:linear-gradient(
 .hero-content{
 
     color:white;
+
     max-width:650px;
+
     padding-top:60px;
+
+    margin-left:-80px;
 
 }
 
@@ -198,13 +200,15 @@ background:linear-gradient(
 
 .btn{
 
-    padding:16px 34px;
+    display:inline-block;
+
+    padding:16px 36px;
 
     border-radius:12px;
 
     font-weight:600;
 
-    transition:.3s;
+    transition:all .3s ease;
 
 }
 
@@ -218,7 +222,9 @@ background:linear-gradient(
 
 .btn-primary:hover{
 
-    transform:translateY(-3px);
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 30px rgba(227,27,35,.35);
 
 }
 
@@ -235,5 +241,7 @@ background:linear-gradient(
     background:white;
 
     color:#111;
+
+    transform:translateY(-4px);
 
 }
