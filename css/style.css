@@ -57,7 +57,8 @@ ul{
 
 .container{
 
-    width:min(90%,1200px);
+    width:min(92%,1400px);
+
     margin:auto;
 
 }
@@ -127,71 +128,71 @@ ul{
 .hero{
 
     background-image:url("../images/branding/hero-home.png");
-
     background-size:cover;
-
     background-position:right center;
+    background-repeat:no-repeat;
 
-    height:90vh;
+    min-height:90vh;
 
-    position:relative;
+    display:flex;
+    align-items:center;
 
 }
 
 .hero-overlay{
 
     width:100%;
-    height:100%;
+    min-height:90vh;
 
     background:linear-gradient(
-        to right,
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.20)
+        90deg,
+        rgba(0,0,0,.60) 0%,
+        rgba(0,0,0,.35) 45%,
+        rgba(0,0,0,.10) 100%
     );
 
     display:flex;
     align-items:center;
+
 }
 
 .hero-content{
 
-    color:white;
+    width:100%;
+    max-width:600px;
 
-    max-width:560px;
+    color:#fff;
 
-    padding-top:60px;
+    padding-top:80px;
 
 }
 
 .hero h1{
 
     font-size:72px;
-
-    line-height:1.1;
-
-    margin-bottom:24px;
-
+    line-height:1.08;
     font-weight:800;
+
+    margin-bottom:25px;
 
 }
 
 .hero p{
 
     font-size:22px;
-
     line-height:1.7;
 
-    color:#EEEEEE;
-
     margin-bottom:40px;
+
+    color:#f0f0f0;
 
 }
 
 .hero-buttons{
 
     display:flex;
-
     gap:20px;
+    flex-wrap:wrap;
 
 }
 
@@ -212,8 +213,7 @@ ul{
 .btn-primary{
 
     background:#E31B23;
-
-    color:white;
+    color:#fff;
 
 }
 
@@ -227,16 +227,14 @@ ul{
 
 .btn-secondary{
 
-    border:2px solid white;
-
-    color:white;
+    border:2px solid #fff;
+    color:#fff;
 
 }
 
 .btn-secondary:hover{
 
-    background:white;
-
+    background:#fff;
     color:#111;
 
     transform:translateY(-4px);
