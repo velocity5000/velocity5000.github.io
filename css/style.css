@@ -134,7 +134,7 @@ ul{
 
     background-position:center;
 
-    height:80vh;
+    height:90vh;
 
     position:relative;
 
@@ -159,14 +159,14 @@ background:linear-gradient(
 .hero-content{
 
     color:white;
-
     max-width:650px;
+    padding-top:60px;
 
 }
 
 .hero h1{
 
-    font-size:64px;
+    font-size:72px;
 
     line-height:1.1;
 
