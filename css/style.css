@@ -92,9 +92,9 @@ ul{
 }
 
 .logo img{
-
-    height:48px;
-
+    display: block;
+    height: 48px;
+    width: auto;
 }
 
 .nav-links{
