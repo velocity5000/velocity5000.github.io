@@ -361,3 +361,35 @@ ul{
     font-weight:700;
 
 }
+
+/*====================================
+PAGE BANNER
+====================================*/
+
+.page-banner{
+
+padding:180px 0 100px;
+
+background:#111;
+
+text-align:center;
+
+color:white;
+
+}
+
+.page-banner h1{
+
+font-size:64px;
+
+margin-bottom:20px;
+
+}
+
+.page-banner p{
+
+font-size:22px;
+
+opacity:.85;
+
+}
