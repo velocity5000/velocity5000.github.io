@@ -1,13 +1,7 @@
-/* ===========================
-   VELOCITY 5000 WEBSITE
+/* ==========================================
+   Velocity 5000 Website
    Version 2.0
-=========================== */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+========================================== */
 
 :root{
 
@@ -21,6 +15,14 @@
 
 }
 
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
 html{
 
     scroll-behavior:smooth;
@@ -31,20 +33,85 @@ body{
 
     font-family:'Poppins',sans-serif;
     background:var(--light);
-    color:var(--dark);
 
 }
 
 img{
 
-    max-width:100%;
     display:block;
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
 
 }
 
 .container{
 
-    width:min(90%,var(--max-width));
+    width:min(90%,1200px);
     margin:auto;
+
+}
+
+/* ==========================
+      NAVIGATION
+========================== */
+
+.navbar{
+
+    background:#111111;
+
+}
+
+.navbar .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    height:85px;
+
+}
+
+.logo img{
+
+    height:55px;
+
+    width:auto;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:40px;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
 
 }
