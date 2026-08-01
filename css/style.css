@@ -393,3 +393,77 @@ font-size:22px;
 opacity:.85;
 
 }
+
+/*====================================
+    EVENTS PAGE
+====================================*/
+
+.events-list{
+
+    padding:100px 0;
+
+    background:#f7f7f7;
+
+}
+
+.featured-event{
+
+    display:grid;
+
+    grid-template-columns:1.1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+    margin-bottom:100px;
+
+}
+
+.featured-event img{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.featured-content h2{
+
+    font-size:42px;
+
+    margin:20px 0;
+
+    color:#111;
+
+}
+
+.featured-content p{
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    color:#666;
+
+    margin-bottom:35px;
+
+}
+
+.featured-content .event-date{
+
+    display:inline-block;
+
+    color:#E31B23;
+
+    font-weight:700;
+
+    font-size:18px;
+
+}
